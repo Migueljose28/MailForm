@@ -23,7 +23,7 @@ def submit_API():
     
     if response.status_code == 200: #200 indica que a requisição foi bem sucedida
         return render_template('index.html', sucesso=True)
-        
+         
     else:
         return render_template('index.html', sucesso=False)
     
